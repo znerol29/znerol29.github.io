@@ -10,13 +10,8 @@ html {
   height: 100%;
   width: 100%;
   background-color: var(--black);
-}
-
-.alfarn {
-  font-family: "alfarn", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #FFFFFF;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 ::-webkit-Scrollbar{
@@ -31,4 +26,34 @@ html {
 ::-webkit-Scrollbar-track{
   margin-top: 0px;
   border-radius: 10px;
+}
+
+.alfarn {
+  font-family: "alfarn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.center{
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+  text-align: center;
+}
+
+h1{
+  font-family: "alfarn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--beige);
+  font-size: 80pt;
+}
+
+h3{
+  font-family: "alfarn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--green);
+  font-size: 20pt;
 }
