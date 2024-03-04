@@ -14,8 +14,12 @@ html {
   max-width: 100%;
 }
 
+body{
+  margin: 0;
+}
+
 ::-webkit-Scrollbar{
-    width: 10px; 
+  width: 10px; 
   background: var(--black);
 }
 ::-webkit-Scrollbar-thumb{
@@ -47,7 +51,8 @@ h1{
   font-weight: 400;
   font-style: normal;
   color: var(--beige);
-  font-size: 80pt;
+  font-size: 80px;
+  margin: 0;
 }
 
 h3{
@@ -55,5 +60,24 @@ h3{
   font-weight: 400;
   font-style: normal;
   color: var(--green);
-  font-size: 20pt;
+  font-size: 20px;
+  margin: 0;
+}
+
+.hover{
+  fill: var(--brown);
+  transition: 0.3s;
+}
+
+.hover:hover{
+  fill: var(--beige);
+  --icon: var(--brown);
+  transition: 0.3s;
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+  fill: var(--beige);
+  transition: 0.3s;
 }
