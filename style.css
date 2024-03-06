@@ -250,7 +250,7 @@ img.logo{
   display: block;
   text-align: center;
   z-index: -1;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
   translate: +100%;
   padding-top: 150px;
   background-color: rgba(0, 0, 0, 0.85);
@@ -269,8 +269,7 @@ img.logo{
   }
 
   div.logo{
-    padding-left: 10px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 100%;
   }
