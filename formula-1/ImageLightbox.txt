@@ -1,0 +1,45 @@
+.full-screen {
+    display: none;
+    position: fixed; /* or 'absolute' if 'fixed' doesn't suit your layout */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    z-index: 9999; /* Ensure it's on top of other content */
+    text-align: center; /* Center the image */
+}
+
+.full-screen img {
+    max-width: 90%; /* Limit image size */
+    max-height: 90%; /* Limit image size */
+    margin-top: 5%; /* Adjust spacing to center the image vertically */
+}
+
+.full-screen:target {
+    display: block; /* Display the full-screen image when targeted */
+}
+
+.full-screen .close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+<a href="#img1">
+    <img src="thumbnail.jpg" alt="Click to view full-size image">
+</a>
+<div id="img1" class="full-screen">
+    <a href="#_" class="close">&times;</a>
+    <img src="fullsize.jpg" alt="Full-size image">
+</div>
