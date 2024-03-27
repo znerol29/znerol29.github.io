@@ -14,6 +14,7 @@ html, body {
   max-width: 100%;
   position: relative;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body{
@@ -68,6 +69,15 @@ h3{
   font-style: normal;
   color: var(--green);
   font-size: 20px;
+  margin: 0;
+}
+
+p{
+  font-family: "arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 12px;
   margin: 0;
 }
 
@@ -577,7 +587,7 @@ div.header{
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: calc(50% - 10px);
   width: auto;
   color: var(--beige);
   font-weight: bold;
