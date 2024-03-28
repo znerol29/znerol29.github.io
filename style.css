@@ -265,6 +265,7 @@ img.logo{
   justify-content: center;
   align-items: bottom;
   gap: 15px; 
+  scale: 0.9;
 }
 
 .sidebar {
@@ -386,7 +387,6 @@ footer{
   position:fixed;
   left:0px;
   top:70px;
-  background-blend-mode: luminosity; 
   pointer-events: none;
 }
 
@@ -470,6 +470,12 @@ img.content-page{
   width:100%;
   height:100%;
   border-radius: 5px;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+div.content-page:hover img.content-page{
+  filter: grayscale(0%);
 }
 
 h3.content-page{
