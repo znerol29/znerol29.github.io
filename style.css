@@ -34,7 +34,7 @@ body{
   box-shadow: 0 0 7px var(--brown);
 }
 ::-webkit-Scrollbar-track{
-  margin-top: 0px;
+  margin-top: 70px;
   border-radius: 7px;
 }
 
