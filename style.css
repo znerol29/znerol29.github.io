@@ -204,7 +204,7 @@ a.hamburgerpages{
   margin-left: auto; 
   margin-right: auto; 
   color: var(--brown);
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 40px;
   text-align: center;
   line-height: 40px;
@@ -299,13 +299,14 @@ img.logo{
   label.hamburger {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
     width: max-content;
     position: absolute;
     top: 20px;
     right:20px;
     z-index: 2;
     cursor: pointer;
+    scale: 0.75;
   }
   
   label.hamburger::before,
@@ -313,7 +314,7 @@ img.logo{
   label.hamburger input {
     content: "";
     width: 40px;
-    height: 6px;
+    height: 4px;
     background-color: var(--brown);
     border-radius: 5px;
     transform-origin: right center;
