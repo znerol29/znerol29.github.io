@@ -13,14 +13,14 @@
   <meta property="og:image" content="assets/images/2023/spa23/2023_07_29_022.jpg">
   <link rel="icon" href="assets/main/Icon.png">
   <link rel="apple-touch-icon" href="assets/hain/Icon.png">
-  <link rel="canonical" href="index.html">
+  <link rel="canonical" href="/">
 </head>
 <body>
   <nav>  
     <div class="navbar">
       <div class="pages">
-        <a class="pages" href="formula-1.html">Formula 1</a>
-        <a class="pages" href="dtm.html">DTM</a>
+        <a class="pages" href="formula-1">Formula 1</a>
+        <a class="pages" href="dtm">DTM</a>
         <a class="pages active" href="">Expos</a>
       </div>
       
@@ -70,8 +70,8 @@
       </label>
       <aside class="sidebar" id="sidebar">
         <nav>
-          <a class="hamburgerpages" href="formula-1.html">Formula 1</a>
-          <a class="hamburgerpages" href="dtm.html">DTM</a>
+          <a class="hamburgerpages" href="formula-1">Formula 1</a>
+          <a class="hamburgerpages" href="dtm">DTM</a>
           <a class="hamburgerpages active" href="">Expos</a>
           <div class="socialmedia-hamburger" name="Social Media Buttons">
   
@@ -121,13 +121,13 @@
 
     <div id="contents">
       <div class="previews">
-        <a class="previews" href="expos/ems23.html">  
+        <a class="previews" href="collections/expos/ems23">  
           <div class="content-page">
             <img loading="lazy" class="content-page" src="assets/thumbs/2023_12_02-2.jpg">
             <h3 class="content-page center">ems '23</h3>
           </div>
         </a>
-        <a class="previews" href="expos/sre23.html">
+        <a class="previews" href="collections/expos/sre23">
           <div class="content-page">
             <img loading="lazy" class="content-page" src="assets/thumbs/2023_10_14.jpg">
             <h3 class="content-page center">sre '23</h3>
@@ -136,7 +136,7 @@
       </div>
       <footer>
         <h3 style="font-size: 13px; text-align: center;">Lorenz • Motorsport Photography</h3>
-        <h3 style="font-size: 13px; text-align: center;"><a href="datenschutzerklaerung.html" style="text-decoration: none; color: var(--green)">Datenschutzerklärung</a></h3>
+        <h3 style="font-size: 13px; text-align: center;"><a href="datenschutzerklaerung" style="text-decoration: none; color: var(--green)">Datenschutzerklärung</a></h3>
         <h3 style="font-size: 13px; text-align: center;">we do not collect cookies</h3>
       </footer>
       </div>

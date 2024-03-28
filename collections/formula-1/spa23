@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>SPA 23</title>
+  <title>SPA '23</title>
   <link href="../style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://use.typekit.net/oug7tkv.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,19 +10,18 @@
   <meta name="description" content="Amateur motorsport photographer based in germany.">
   <meta property="og:title" content="Lorenz • Motorsport Photography">
   <meta property="og:description" content="Amateur motorsport photographer based in germany.">
-<!-- Beispielbild hinzufügen -->
-  <meta property="og:image" content="...">
+  <meta property="og:image" content="../assets/images/2023/spa23/2023_07_29_022.jpg">
   <link rel="icon" href="../assets/main/Icon.png">
   <link rel="apple-touch-icon" href="../assets/hain/Icon.png">
-  <link rel="canonical" href="../index.html">
+  <link rel="canonical" href="../">
 </head>
 <body>
   <nav>  
     <div class="navbar">
       <div class="pages">
-        <a class="pages active" href="../formula-1.html">Formula 1</a>
-        <a class="pages" href="">DTM</a>
-        <a class="pages" href="">Expos</a>
+        <a class="pages active" href="../formula-1">Formula 1</a>
+        <a class="pages" href="../dtm">DTM</a>
+        <a class="pages" href="../expos">Expos</a>
       </div>
 
       <div class="logo">
@@ -71,9 +70,9 @@
       </label>
       <aside class="sidebar" id="sidebar">
         <nav>
-          <a class="hamburgerpages active" href="../formula-1.html">Formula 1</a>
-          <a class="hamburgerpages" href="https://google.com">DTM</a>
-          <a class="hamburgerpages" href="https://google.com">Expos</a>
+          <a class="hamburgerpages active" href="../formula-1">Formula 1</a>
+          <a class="hamburgerpages" href="../dtm">DTM</a>
+          <a class="hamburgerpages" href="../expos">Expos</a>
           <div class="socialmedia-hamburger" name="Social Media Buttons">
 
             <a href="https://www.instagram.com/znerol29">
@@ -294,7 +293,8 @@
     
     <footer>
       <h3 style="font-size: 13px; text-align: center;">Lorenz • Motorsport Photography</h3>
-      <h3 style="font-size: 13px; text-align: center;"><a href="../datenschutzerklaerung.html" style="text-decoration: none; color: var(--green)">Datenschutzerklärung</a></h3>
+      <h3 style="font-size: 13px; text-align: center;"><a href="../datenschutzerklaerung" style="text-decoration: none; color: var(--green)">Datenschutzerklärung</a></h3>
+      <h3 style="font-size: 13px; text-align: center;">we do not collect cookies</h3>
     </footer>
   </div>
   <script src="../script.js"></script>
