@@ -1,9 +1,13 @@
+var modalOpen = 0;
+
 function openModal() {
   document.getElementById("myModal").style.display = "block";
+  modalOpen == 1;
 }
 
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
+  modalOpen == 0;
 }
 
 var slideIndex = 1;
@@ -15,6 +19,33 @@ function plusSlides(n) {
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
+}
+
+if(modalOpen = 1){
+  document.body.addEventListener('keydown', function (event) {
+    const key = event.key;
+    switch (key) {
+        case "ArrowLeft":
+          showSlides(slideIndex -= 1);
+          break;
+        case "ArrowRight":
+          showSlides(slideIndex += 1);
+          break;
+    }
+  });
+
+  $(function() {      
+    $("#myModal").swipe( {
+      swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+        if(direction == "left"){
+          showSlides(slideIndex += 1);
+        }
+        else if(direction == "right"){
+          showSlides(slideIndex -= 1);
+        }
+      },
+    });
+  });
 }
 
 function showSlides(n) {
