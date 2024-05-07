@@ -152,7 +152,7 @@ a.button:hover{
 }
 
 .homelogo{
-  height: calc(100% - 660px);  
+  width: calc(100vh - 660px);  
   padding-bottom: 20px; 
   max-height: 340px;
   margin-left: auto; 
