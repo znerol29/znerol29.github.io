@@ -155,6 +155,9 @@ a.button:hover{
   height: calc(100% - 660px);  
   padding-bottom: 20px; 
   max-height: 340px;
+  margin-left: auto; 
+  margin-right: auto; 
+  display:block;
 }
 
 @media screen and (max-height: 750px){
