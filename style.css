@@ -154,7 +154,7 @@ a.button:hover{
 .homelogo{
   width: calc(100vh - 660px);  
   padding-bottom: 20px; 
-  max-height: 340px;
+  max-width: 340px;
   margin-left: auto; 
   margin-right: auto; 
   display:block;
@@ -163,6 +163,43 @@ a.button:hover{
 @media screen and (max-height: 750px){
   .homelogo{
     display:none;
+  }
+}
+
+.homeimage{
+  border-radius: 5px; 
+  width: 400px; 
+  max-width: 90vw;
+  background-image: url(./assets/thumbs/2023_07_29.jpg);
+
+  transition: 5s;
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-image: url(./assets/thumbs/2022_08_27.jpg);
+  }
+  20%{
+    background-image: url(./assets/thumbs/2023_07_30.jpg);
+  }
+  40%{
+    background-image: url(./assets/thumbs/2023_08_06.jpg);
+  }
+  60%{
+    background-image: url(./assets/thumbs/2023_10_22.jpg);
+  }
+  80%{
+    background-image: url(./assets/thumbs/2023_12_02.jpg);
+  }
+  100%{
+    background-image: url(./assets/thumbs/2023_07_29.jpg);
   }
 }
 
