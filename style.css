@@ -151,6 +151,18 @@ a.button:hover{
   background-color: var(--beige);
 }
 
+.homelogo{
+  height: calc(100% - 660px);  
+  padding-bottom: 20px; 
+  max-height: 340px;
+}
+
+@media screen and (max-height: 750px){
+  .homelogo{
+    display:none;
+  }
+}
+
 nav{
   z-index: 1;
 }
