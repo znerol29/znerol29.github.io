@@ -173,7 +173,7 @@ a.button:hover{
   margin-left: auto; 
   margin-right: auto; 
   display:block;
-  background-image: url(./assets/thumbs/2023_07_29.jpg);
+  background: url(../assets/thumbs/2023_07_29.jpg);
 
   transition: 5s;
   animation-name: animate;
@@ -187,22 +187,22 @@ a.button:hover{
 
 @keyframes animate{
   0%{
-    background-image: url(./assets/thumbs/2022_08_27.jpg);
+    background: url(../assets/thumbs/2022_08_27.jpg);
   }
   20%{
-    background-image: url(./assets/thumbs/2023_07_30.jpg);
+    background: url(../assets/thumbs/2023_07_30.jpg);
   }
   40%{
-    background-image: url(./assets/thumbs/2023_08_06.jpg);
+    background: url(../assets/thumbs/2023_08_06.jpg);
   }
   60%{
-    background-image: url(./assets/thumbs/2023_10_22.jpg);
+    background: url(../assets/thumbs/2023_10_22.jpg);
   }
   80%{
-    background-image: url(./assets/thumbs/2023_12_02.jpg);
+    background: url(../assets/thumbs/2023_12_02.jpg);
   }
   100%{
-    background-image: url(./assets/thumbs/2023_07_29.jpg);
+    background: url(../assets/thumbs/2023_07_29.jpg);
   }
 }
 
