@@ -169,7 +169,7 @@ a.button:hover{
 .homeimage{
   border-radius: 5px; 
   width: 400px; 
-  aspect-ratio: 3 / 2;
+  height: 267px;
   object-fit: cover;
   max-width: 90vw;
   margin-left: auto; 
