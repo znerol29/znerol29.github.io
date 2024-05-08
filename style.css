@@ -169,42 +169,50 @@ a.button:hover{
 .homeimage{
   border-radius: 5px; 
   width: 400px; 
-  height: 267px;
+  aspect-ratio: 3 / 2;
   background-size: cover;
+  background-position: center;
   max-width: 90vw;
   margin-left: auto; 
   margin-right: auto; 
   display:block;
-  background: url("../assets/thumbs/2023_07_29.jpg");
+  background-image: url("assets/thumbs/2023_07_29.jpg");
   
-  transition: 5s;
-  animation-name: animate;
-  animation-direction: alternate-reverse;
+  transition: 1s;
+  animation-name: homeimageanim;
+  animation-delay: 1s;
+  animation-direction: forwards;
   animation-play-state: running;
   animation-timing-function: ease-in-out;
-  animation-duration: 30s;
-  animation-fill-mode: forwards;
+  animation-duration: 28s;
+  animation-fill-mode: alternate;
   animation-iteration-count: infinite;
 }
 
-@keyframes animate{
+@keyframes homeimageanim{
   0%{
-    background: url("../assets/thumbs/2022_08_27.jpg");
+    background-image: url("assets/thumbs/2023_07_29.jpg");
   }
-  20%{
-    background: url("../assets/thumbs/2023_07_30.jpg");
+  14%{
+    background-image: url("assets/thumbs/2023_07_28.jpg");
   }
-  40%{
-    background: url("../assets/thumbs/2023_08_06.jpg");
+  29%{
+    background-image: url("assets/thumbs/2022_08_27.jpg");
   }
-  60%{
-    background: url("../assets/thumbs/2023_10_22.jpg");
+  43%{
+    background-image: url("assets/thumbs/2023_07_30.jpg");
   }
-  80%{
-    background: url("../assets/thumbs/2023_12_02.jpg");
+  57%{
+    background-image: url("assets/thumbs/2023_08_05.jpg");
+  }
+  71%{
+    background-image: url("assets/thumbs/2023_10_22.jpg");
+  }
+  85%{
+    background-image: url("assets/thumbs/2023_12_02.jpg");
   }
   100%{
-    background: url("../assets/thumbs/2023_07_29.jpg");
+    background-image: url("assets/thumbs/2023_12_02-2.jpg");
   }
 }
 
