@@ -170,7 +170,7 @@ a.button:hover{
   border-radius: 5px; 
   width: 400px; 
   height: 267px;
-  object-fit: cover;
+  background-size: cover;
   max-width: 90vw;
   margin-left: auto; 
   margin-right: auto; 
