@@ -193,26 +193,29 @@ a.button:hover{
   0%{
     background-image: url("assets/thumbs/2023_07_29.jpg");
   }
-  14%{
+  13%{
     background-image: url("assets/thumbs/2023_07_28.jpg");
   }
-  29%{
+  25%{
     background-image: url("assets/thumbs/2022_08_27.jpg");
   }
-  43%{
+  38%{
     background-image: url("assets/thumbs/2023_07_30.jpg");
   }
-  57%{
+  50%{
     background-image: url("assets/thumbs/2023_08_05.jpg");
   }
-  71%{
+  63%{
     background-image: url("assets/thumbs/2023_10_22.jpg");
   }
-  85%{
+  75%{
     background-image: url("assets/thumbs/2023_12_02.jpg");
   }
-  100%{
+  88%{
     background-image: url("assets/thumbs/2023_12_02-2.jpg");
+  }
+  100%{
+    background-image: url("assets/thumbs/2024_05_10.jpg");
   }
 }
 
