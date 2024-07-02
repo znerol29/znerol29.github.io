@@ -513,12 +513,17 @@ div.previews{
   width: calc(100vw - 47px);
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 15px;
 }
 
 a.previews{
   text-decoration: none;
-  width: 50%;
+  width: calc((100vw - 77px)/3);
+}
+
+a.previews.prevsmall{
+  width: calc((100vw - 62px)/2);
 }
 
 @media screen and (max-width: 1075px){
